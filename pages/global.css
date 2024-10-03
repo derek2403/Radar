@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional global styles */
+body {
+  @apply bg-black text-white;
+}
+
+.cta-button:hover {
+    background: radial-gradient(to right, #00FFA3, #03E1FF, #DC1FFF);
+  }
